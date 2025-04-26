@@ -197,8 +197,8 @@
 
 欢迎进大本营，跟大家一起交流学习
 
-![1b3726f585953d52e1c9ad3225a2b4d.jpg](attachment:3c3f250a-c027-457b-9e16-01f417da1a87:1b3726f585953d52e1c9ad3225a2b4d.jpg)
-
 [欢迎加我微信，进学习大本营：szqshan](https://www.notion.so/szqshan-1da2daab647680e997d1f550198f2398?pvs=21)
+![image](https://github.com/user-attachments/assets/6161087d-e5bc-482a-83c1-e082b2984068)
+
 
 
