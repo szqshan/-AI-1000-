@@ -140,10 +140,6 @@
 
 [草稿- Deep facelive 实时换脸（无法过审）有需要的朋友联系我微信](https://www.notion.so/Deep-facelive-1c12daab647680d28c99d3f4df3f45ef?pvs=21)
 
-欢迎进大本营，跟大家一起交流学习
-
-![1b3726f585953d52e1c9ad3225a2b4d.jpg](attachment:3c3f250a-c027-457b-9e16-01f417da1a87:1b3726f585953d52e1c9ad3225a2b4d.jpg)
-
 [草稿- notion平替 个人开源知识库](https://www.notion.so/notion-1c22daab647680d1b11bdafa9231c2c1?pvs=21)
 
 [草稿-测试gpt4o生图](https://www.notion.so/gpt4o-1c42daab647680fdb38ac6a7bb27bb01?pvs=21)
@@ -192,10 +188,17 @@
 
 [草稿-既然提示词这么重要，那最狠的提示词是什么？](https://www.notion.so/1d92daab647680839621df86f22f5c8c?pvs=21)
 
-[欢迎加我微信，进学习大本营：szqshan](https://www.notion.so/szqshan-1da2daab647680e997d1f550198f2398?pvs=21)
-
 [开发自己的网络工具MCP](https://www.notion.so/MCP-1db2daab647680e18f7fe2a5755f9507?pvs=21)
 
 [草稿-每天爬取 1w 条新闻，滚动展示](https://www.notion.so/1w-1e02daab647680b3b4c3d279021f03ef?pvs=21)
 
 [草稿-fast api 转换到 mcp](https://www.notion.so/fast-api-mcp-1e12daab6476803186fefc5e31685ec1?pvs=21)
+
+
+欢迎进大本营，跟大家一起交流学习
+
+![1b3726f585953d52e1c9ad3225a2b4d.jpg](attachment:3c3f250a-c027-457b-9e16-01f417da1a87:1b3726f585953d52e1c9ad3225a2b4d.jpg)
+
+[欢迎加我微信，进学习大本营：szqshan](https://www.notion.so/szqshan-1da2daab647680e997d1f550198f2398?pvs=21)
+
+
