@@ -36,23 +36,37 @@
 
 [Day14-从0开始Agent系列视频03-为什么MCP1.0早晚会淘汰](https://www.notion.so/Day14-0-Agent-03-MCP1-0-1d82daab647680bcbd65cdf3c85d8dca?pvs=21)
 
-[Day15-从0开始Agent系列视频04MCP利用支付宝收款](https://www.notion.so/Day15-0-Agent-04MCP-1db2daab647680b29475c9c11f56f40a?pvs=21)
+[Day15-从0开始Agent系列视频04-让AI查询并分析百万行数据](https://www.notion.so/Day15-0-Agent-04-AI-1db2daab64768066abd7c7c8f4546e39?pvs=21)
 
-[Day15-从0开始Agent系列视频05-MCP是如何与LLM“沟通”的](https://www.notion.so/Day15-0-Agent-05-MCP-LLM-1d82daab6476807d88b0d4ecfed9d601?pvs=21)
+[Day16-从0开始agent系列视频05-AI自动查询火车票，飞机票，制定准确的方案](https://www.notion.so/Day16-0-agent-05-AI-1f32daab647680969740c6f6c8809a3b?pvs=21)
 
-[Day16-从0开始Agent系列视频06-MCP数据库替代RAG+office](https://www.notion.so/Day16-0-Agent-06-MCP-RAG-office-1db2daab64768066abd7c7c8f4546e39?pvs=21)
+[草稿-WPS的MCP](https://www.notion.so/WPS-MCP-1ee2daab647680a58a02f246343809a5?pvs=21)
 
-[Day17-从0开始Agent系列视频07-云mcp商店一键安装](https://www.notion.so/Day17-0-Agent-07-mcp-1d12daab6476809c8bd0e0f332828e07?pvs=21)
+[草稿-migpt将小爱同学接入大模型](https://www.notion.so/migpt-1f52daab64768047824ac194cc36b85c?pvs=21)
 
-[Day18-从0开始Agent系列视频08-微信小程序接入 mcp](https://www.notion.so/Day18-0-Agent-08-mcp-1d62daab647680e8bbfaf11274bc7a27?pvs=21)
-
-[Day19-从0开始Agent系列视频09-做出自己的第一个MCP](https://www.notion.so/Day19-0-Agent-09-MCP-1d92daab647680249b0dca0f174b3340?pvs=21)
-
-[草稿-Prompt optimizer提示词优化器](https://www.notion.so/Prompt-optimizer-1c62daab647680c4a29aecd1784ef7c4?pvs=21)
+[草稿-工程师mcp集合，网络，Linux，kali，docker，自动登录执行命令](https://www.notion.so/mcp-Linux-kali-docker-1f52daab647680bc8a69d3f44784ecda?pvs=21)
 
 [草稿-wxauto库 AI自动回复微信信息](https://www.notion.so/wxauto-AI-1cd2daab647680a7a8d6e4d729b43b4c?pvs=21)
 
+[草稿-姜浩ai项目，脑癌乳腺癌筛查](https://www.notion.so/ai-1f42daab64768018bdd1f6c7b7533aa0?pvs=21)
+
+[草稿-一个免费看VIP电影的mcp](https://www.notion.so/VIP-mcp-1f12daab647680618b6deb7cfc6b9afb?pvs=21)
+
+[草稿-飞牛os部署影视库，搭配mcp，实现ai自动播放电影](https://www.notion.so/os-mcp-ai-1f52daab6476803f8947c6093d2e8dd6?pvs=21)
+
+[草稿-fast api 转换到 mcp](https://www.notion.so/fast-api-mcp-1e12daab6476803186fefc5e31685ec1?pvs=21)
+
+[草稿-三个mcp，api转mcp，mcp客户端，](https://www.notion.so/mcp-api-mcp-mcp-1f42daab647680e9b2efecc7455d4bf8?pvs=21)
+
+[Day19-从0开始Agent系列视频09-做出自己的第一个MCP](https://www.notion.so/Day19-0-Agent-09-MCP-1d92daab647680249b0dca0f174b3340?pvs=21)
+
+[草稿-部署千问新模型测试本地mcp](https://www.notion.so/mcp-1ed2daab6476803dac1edcce2047d921?pvs=21)
+
 [草稿-AI+你的私有数据档案=私有智能体](https://www.notion.so/AI-1a92daab647680e69bacc635ab2f9f53?pvs=21)
+
+[草稿-Prompt optimizer提示词优化器](https://www.notion.so/Prompt-optimizer-1c62daab647680c4a29aecd1784ef7c4?pvs=21)
+
+[草稿-Ruoyi ai助手平台，接入微信和各大模型](https://www.notion.so/Ruoyi-ai-1c02daab6476800e93ceedbbe1f5340e?pvs=21)
 
 [草稿-谷歌agent开发框架](https://www.notion.so/agent-1d92daab64768048b238ce518f08fc58?pvs=21)
 
@@ -106,11 +120,9 @@
 
 [草稿- AI做app，做自己的ai营养师和运动导师。](https://www.notion.so/AI-app-ai-1aa2daab6476803b9ba6d96519da8b6c?pvs=21)
 
-[草稿-ai辅助学习英语app](https://www.notion.so/ai-app-1aa2daab647680e7abeed587ecae3e90?pvs=21)
-
 [草稿-anyllm 部署模型](https://www.notion.so/anyllm-1ab2daab6476805cad09d2e7f68bac60?pvs=21)
 
-[草稿- 机器学习 和训练。 ](https://www.notion.so/1ab2daab647680febf0ed68378a70d56?pvs=21)
+[草稿- 机器学习 和训练，微调。 ](https://www.notion.so/1ab2daab647680febf0ed68378a70d56?pvs=21)
 
 [草稿-ai制作微信小程序](https://www.notion.so/ai-1ac2daab647680828ddbda76dcf18dca?pvs=21)
 
@@ -134,15 +146,15 @@
 
 [草稿- AI生成卖货视频](https://www.notion.so/AI-1bc2daab6476806490bad1db8193161a?pvs=21)
 
-[草稿-Ruoyi ai助手平台，接入微信和各大模型](https://www.notion.so/Ruoyi-ai-1c02daab6476800e93ceedbbe1f5340e?pvs=21)
-
 [草稿-skyline可以查看全球公开摄像头，实时看各地情况](https://www.notion.so/skyline-1c02daab6476804eaf76cd4258b83122?pvs=21)
 
 [草稿- Deep facelive 实时换脸（无法过审）有需要的朋友联系我微信](https://www.notion.so/Deep-facelive-1c12daab647680d28c99d3f4df3f45ef?pvs=21)
 
-[草稿- notion平替 个人开源知识库](https://www.notion.so/notion-1c22daab647680d1b11bdafa9231c2c1?pvs=21)
+欢迎进大本营，跟大家一起交流学习
 
-[草稿-测试gpt4o生图](https://www.notion.so/gpt4o-1c42daab647680fdb38ac6a7bb27bb01?pvs=21)
+![1b3726f585953d52e1c9ad3225a2b4d.jpg](attachment:3c3f250a-c027-457b-9e16-01f417da1a87:1b3726f585953d52e1c9ad3225a2b4d.jpg)
+
+[草稿- notion平替 个人开源知识库](https://www.notion.so/notion-1c22daab647680d1b11bdafa9231c2c1?pvs=21)
 
 [草稿-给小学生的AI语文老师（生成app）](https://www.notion.so/AI-app-1c62daab6476807baa6ae52fc31a7c2a?pvs=21)
 
@@ -168,8 +180,6 @@
 
 [草稿-利用Pydantic从图像中提取结构化车辆信息](https://www.notion.so/Pydantic-1d12daab6476808c91d5e2fca161345f?pvs=21)
 
-[草稿-把大模型变成微信私人助手，三步搞定！](https://www.notion.so/1d22daab647680bd8889e04b74998fd2?pvs=21)
-
 [草稿-换脸-对口型-翻译-直播](https://www.notion.so/1d32daab647680229de7ca9a6d98f43a?pvs=21)
 
 [草稿-ai论文相关工具](https://www.notion.so/ai-1d32daab64768029980cc885811a8d14?pvs=21)
@@ -188,17 +198,60 @@
 
 [草稿-既然提示词这么重要，那最狠的提示词是什么？](https://www.notion.so/1d92daab647680839621df86f22f5c8c?pvs=21)
 
-[开发自己的网络工具MCP](https://www.notion.so/MCP-1db2daab647680e18f7fe2a5755f9507?pvs=21)
-
 [草稿-每天爬取 1w 条新闻，滚动展示](https://www.notion.so/1w-1e02daab647680b3b4c3d279021f03ef?pvs=21)
 
-[草稿-fast api 转换到 mcp](https://www.notion.so/fast-api-mcp-1e12daab6476803186fefc5e31685ec1?pvs=21)
+[草稿-video自动去字幕，翻译，本地部署](https://www.notion.so/video-1e52daab64768079a28be3e6489a485a?pvs=21)
 
+[草稿-智能识别图片和分类](https://www.notion.so/1e72daab647680f3a4c0f5c0df7aefd4?pvs=21)
 
-欢迎进大本营，跟大家一起交流学习
+[草稿-devin deepwiki分析github项目](https://www.notion.so/devin-deepwiki-github-1e72daab647680d9becbfecf60ad84ca?pvs=21)
+
+[草稿-auto cut video自动剪辑](https://www.notion.so/auto-cut-video-1e92daab647680ff8141e1900c22810e?pvs=21)
+
+[魔塔社区的资料大全](https://www.notion.so/1ea2daab6476806ba3c8e8f9e450e5c4?pvs=21)
+
+[开发自己的网络工具MCP](https://www.notion.so/MCP-1db2daab647680e18f7fe2a5755f9507?pvs=21)
 
 [欢迎加我微信，进学习大本营：szqshan](https://www.notion.so/szqshan-1da2daab647680e997d1f550198f2398?pvs=21)
-![image](https://github.com/user-attachments/assets/6161087d-e5bc-482a-83c1-e082b2984068)
 
+[草稿-kag知识图谱](https://www.notion.so/kag-1ec2daab647680e5ba14d8e937c41cdc?pvs=21)
 
+[草稿-blender生成 3d视频](https://www.notion.so/blender-3d-1ed2daab647680028ee7f7147f595cca?pvs=21)
 
+[草稿-让AI写个网站，然后vercal部署](https://www.notion.so/AI-vercal-1ed2daab647680ec9802ffc2d71bc725?pvs=21)
+
+[草稿-lingma插件模仿cursor](https://www.notion.so/lingma-cursor-1ed2daab647680d5ad88d506781c8f40?pvs=21)
+
+[草稿-字节的deerflow，基于langgraph](https://www.notion.so/deerflow-langgraph-1ef2daab647680eb94e6cbc3e454822a?pvs=21)
+
+[草稿-从不知道django是啥到使用django搭建大型项目](https://www.notion.so/django-django-1f02daab64768079b827d30fd893d996?pvs=21)
+
+[草稿-vue学习指南](https://www.notion.so/vue-1f02daab647680f3ad5ce5bf651ac6ff?pvs=21)
+
+[草稿-微信小程序接入 mcp](https://www.notion.so/mcp-1d62daab647680e8bbfaf11274bc7a27?pvs=21)
+
+[草稿-MCP利用支付宝收款](https://www.notion.so/MCP-1db2daab647680b29475c9c11f56f40a?pvs=21)
+
+[草稿-spring AI，让java快速接入ai，搭建智能体，知识库，等](https://www.notion.so/spring-AI-java-ai-1f32daab6476805b8a41f71d19a1701f?pvs=21)
+
+[草稿-ICEdite用嘴p图](https://www.notion.so/ICEdite-p-1f42daab647680c99ed3e38dc0b177a8?pvs=21)
+
+[草稿-cobalt全球视频下载器](https://www.notion.so/cobalt-1f42daab647680ba9587c4a579eb2cc2?pvs=21)
+
+[草稿-无影云电脑仿manus](https://www.notion.so/manus-1f42daab6476805883eee0a802265557?pvs=21)
+
+[草稿-moneyprinter turbo自动生成短视频](https://www.notion.so/moneyprinter-turbo-1f42daab6476804aa450c95f90260c2f?pvs=21)
+
+[各种各样AI开发框架怎么选？](https://www.notion.so/AI-1fa2daab647680598933ed7218fc6c1c?pvs=21)
+
+[草稿-stirling pdf50➕个pdf功能](https://www.notion.so/stirling-pdf50-pdf-1fa2daab647680cc8bafc0586af2168f?pvs=21)
+
+[草稿-微软的magentic ui智能体](https://www.notion.so/magentic-ui-1fb2daab64768025a93fc7052bc71de3?pvs=21)
+
+[草稿-恋爱脑提示词](https://www.notion.so/1fb2daab647680e9aa8be9e6fec9d592?pvs=21)
+
+[草稿-自动剪辑mcp](https://www.notion.so/mcp-1fb2daab64768057afc9e1320590485a?pvs=21)
+
+[草稿-dev box部署服务到公网](https://www.notion.so/dev-box-1fb2daab6476807e904cf3f572c0f03f?pvs=21)
+
+[白嫖cursor教程](https://www.notion.so/cursor-1fb2daab647680088319e9eaf54fd1b3?pvs=21)
