@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大模型与AI Agent知识扫盲</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #4682B4;
+            color: white;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e6f7ff;
+        }
+        .term {
+            font-weight: bold;
+            color: #0066cc;
+        }
+        .definition {
+            color: #333;
+        }
+        .simple {
+            color: #008000;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            padding: 10px 15px;
+            background-color: #2c3e50;
+            color: white;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>大模型与AI Agent知识扫盲</h1>
+
+    <div class="section">
+        <h2 class="section-title">基础术语（基本概念）</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>术语/名词</th>
+                    <th>专业解释</th>
+                    <th>小学生大白话</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="term">1. AI（人工智能）</td>
+                    <td class="definition">模拟人类智能的计算机系统，能够执行通常需要人类智能的任务，如视觉识别、决策制定、语言翻译等。</td>
+                    <td class="simple">就像是聪明的电脑机器人，可以做很多需要思考的事情，比如认出图片里有什么、回答问题或者帮你翻译外语。</td>
+                </tr>
+                <tr>
+                    <td class="term">2. ML（机器学习）</td>
+                    <td class="definition">AI的一个子领域，专注于开发能从数据中学习和改进的算法，无需显式编程。</td>
+                    <td class="simple">电脑通过看很多例子来学习，就像你通过做很多道题目来学习数学一样，它会从错误中进步。</td>
+                </tr>
+                <tr>
+                    <td class="term">3. DL（深度学习）</td>
+                    <td class="definition">机器学习的一个子集，使用多层神经网络处理大量数据，模拟人脑神经元的连接方式。</td>
+                    <td class="simple">电脑用很多层的"小脑细胞"来学习，一层层地理解越来越复杂的东西，像是从认出线条，到认出形状，再到认出整个物体。</td>
+                </tr>
+                <tr>
+                    <td class="term">4. LLM（大型语言模型）</td>
+                    <td class="definition">一种经过大量文本训练的AI模型，能够理解、生成和转换人类语言，如GPT、Claude等。</td>
+                    <td class="simple">这是读过很多很多书的AI，就像一个超级博学的朋友，你问它问题，它能用自己学到的知识回答你。</td>
+                </tr>
+                <tr>
+                    <td class="term">5. Agent（智能代理）</td>
+                    <td class="definition">能够感知环境并采取行动以实现特定目标的自主AI系统，常具备决策和学习能力。</td>
+                    <td class="simple">像是一个有自己任务的小助手，可以自己决定怎么做事情，帮你完成一些复杂的工作，比如帮你安排旅行或者搜索信息。</td>
+                </tr>
+                <tr>
+                    <td class="term">6. NLP（自然语言处理）</td>
+                    <td class="definition">AI的一个分支，专注于计算机理解、解释和生成人类语言的能力。</td>
+                    <td class="simple">教电脑听懂和说人类的语言，就像教外国人学中文一样，让电脑能听懂你说什么，也能回答你。</td>
+                </tr>
+                <tr>
+                    <td class="term">7. API（应用程序接口）</td>
+                    <td class="definition">允许不同软件系统相互交互的一组规则和协议，使开发者能够使用预定义的函数而不必了解其内部工作原理。</td>
+                    <td class="simple">就像插头和插座，让你不用知道电是怎么产生的，就能把电器插上用电；API让程序员可以使用别人做好的AI功能。</td>
+                </tr>
+                <tr>
+                    <td class="term">8. Token（标记）</td>
+                    <td class="definition">LLM处理文本的基本单位，可以是单词、单词的一部分或标点符号，用于模型的输入和输出。</td>
+                    <td class="simple">就像把一段话拆成一个个小块，有的是整个字，有的是半个字，AI就是一小块一小块地读和写文字。</td>
+                </tr>
+                <tr>
+                    <td class="term">9. Prompt（提示）</td>
+                    <td class="definition">给AI模型的指令或问题，引导模型生成特定类型的输出或执行特定任务。</td>
+                    <td class="simple">就像你问问题的方式，告诉AI你想要它做什么，好的提问方式能让AI更好地帮助你。</td>
+                </tr>
+                <tr>
+                    <td class="term">10. Fine-tuning（微调）</td>
+                    <td class="definition">在预训练模型的基础上，使用特定领域的数据进行进一步训练，以适应特定任务或领域的过程。</td>
+                    <td class="simple">就像给AI补习特殊知识，比如教已经很聪明的AI学习医学知识，让它变成医学专家。</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">模型技术术语</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>术语/名词</th>
+                    <th>专业解释</th>
+                    <th>小学生大白话</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="term">11. Temperature（温度）</td>
+                    <td class="definition">控制语言模型输出随机性的参数，较高的温度值产生更多样化但可能不太准确的回答，较低的温度值则产生更确定但可能重复的回答。</td>
+                    <td class="simple">就像调整AI的创造力开关，开得大时AI会更有想象力但可能会胡说，开得小时AI会更严肃认真但可能比较死板。</td>
+                </tr>
+                <tr>
+                    <td class="term">12. Transformer（变换器）</td>
+                    <td class="definition">一种神经网络架构，通过自注意力机制处理序列数据，是当代大多数LLM的基础。</td>
+                    <td class="simple">这是AI的"大脑结构"，让AI能够记住长句子中词语之间的关系，就像你读一本书时能记住前面提到的人物和事件一样。</td>
+                </tr>
+                <tr>
+                    <td class="term">13. Attention Mechanism（注意力机制）</td>
+                    <td class="definition">神经网络中的一种技术，使模型能够在处理输入时"关注"最相关的部分，类似于人类注意力的选择性。</td>
+                    <td class="simple">让AI知道该重点看哪里，就像你做阅读理解时，会特别注意和问题相关的段落，而不是看整篇文章的每个字。</td>
+                </tr>
+                <tr>
+                    <td class="term">14. Embedding（嵌入）</td>
+                    <td class="definition">将词语或其他离散对象转换为连续向量表示的过程，捕捉它们的语义关系。</td>
+                    <td class="simple">给每个词找一个特殊的数字代号，相似的词有相似的代号，这样AI就能知道哪些词意思接近，比如"开心"和"快乐"。</td>
+                </tr>
+                <tr>
+                    <td class="term">15. Context Window（上下文窗口）</td>
+                    <td class="definition">语言模型一次能处理的文本量，限制了模型能"记住"的对话历史长度。</td>
+                    <td class="simple">AI的"记忆长度"，就像你能记住多长的故事。上下文窗口越大，AI就能记住越长的对话内容。</td>
+                </tr>
+                <tr>
+                    <td class="term">16. Sampling（采样）</td>
+                    <td class="definition">从模型预测的概率分布中选择下一个词的过程，影响生成文本的多样性。</td>
+                    <td class="simple">AI选择下一个要说的词的方式，就像从一堆可能的词中抽签决定用哪一个。</td>
+                </tr>
+                <tr>
+                    <td class="term">17. Top-k Sampling（Top-k采样）</td>
+                    <td class="definition">只从概率最高的k个候选词中选择下一个词的采样策略。</td>
+                    <td class="simple">AI只从最有可能正确的几个词中选择下一个词，就像你做选择题时，先排除明显错误的选项。</td>
+                </tr>
+                <tr>
+                    <td class="term">18. Top-p (Nucleus) Sampling（Top-p采样）</td>
+                    <td class="definition">从累积概率超过阈值p的最小词集合中选择下一个词的采样策略。</td>
+                    <td class="simple">AI会选择那些最可能正确的词，直到它们的可能性加起来达到一定程度，然后从这些词中选一个。</td>
+                </tr>
+                <tr>
+                    <td class="term">19. Perplexity（困惑度）</td>
+                    <td class="definition">评估语言模型预测文本准确度的指标，数值越低表示模型越好。</td>
+                    <td class="simple">测量AI猜词有多准的分数，就像测验成绩，分数越低说明AI越聪明，对词语的预测越准确。</td>
+                </tr>
+                <tr>
+                    <td class="term">20. Hallucination（幻觉）</td>
+                    <td class="definition">AI生成看似合理但实际上不准确或完全虚构的内容的现象。</td>
+                    <td class="simple">AI有时会"编故事"，说一些听起来对但实际上是错的或不存在的事情，就像做梦一样。</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">训练与数据术语</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>术语/名词</th>
+                    <th>专业解释</th>
+                    <th>小学生大白话</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="term">21. Training Data（训练数据）</td>
+                    <td class="definition">用于教导AI模型如何执行任务的数据集，包含输入示例和期望的输出。</td>
+                    <td class="simple">给AI学习用的例子，就像你的课本和习题，AI通过这些例子学习如何回答问题。</td>
+                </tr>
+                <tr>
+                    <td class="term">22. Pre-training（预训练）</td>
+                    <td class="definition">在大量通用数据上训练模型以学习基础知识，为后续专门任务做准备的阶段。</td>
+                    <td class="simple">先让AI学习各种基础知识，就像你先上小学打好基础，然后才能学更难的东西。</td>
+                </tr>
+                <tr>
+                    <td class="term">23. Supervised Learning（监督学习）</td>
+                    <td class="definition">使用标记数据训练模型的方法，系统学习将输入映射到已知的正确输出。</td>
+                    <td class="simple">有老师教的学习方式，AI看到问题和正确答案，然后学习如何得到正确答案。</td>
+                </tr>
+                <tr>
+                    <td class="term">24. Unsupervised Learning（无监督学习）</td>
+                    <td class="definition">使用无标记数据训练模型的方法，系统自行发现数据中的模式和结构。</td>
+                    <td class="simple">没有老师教的学习方式，AI自己观察很多例子，找出它们的共同点和规律。</td>
+                </tr>
+                <tr>
+                    <td class="term">25. Reinforcement Learning（强化学习）</td>
+                    <td class="definition">通过尝试和错误以及奖惩反馈来训练模型的方法，系统学习如何在环境中采取最佳行动。</td>
+                    <td class="simple">通过试错来学习，就像玩游戏，AI做对了事情就得奖励，做错了就受惩罚，慢慢学会怎么做才最好。</td>
+                </tr>
+                <tr>
+                    <td class="term">26. RLHF（基于人类反馈的强化学习）</td>
+                    <td class="definition">使用人类提供的反馈来指导AI模型学习，通常通过人类评价不同输出的好坏来改进模型。</td>
+                    <td class="simple">让人来告诉AI哪些回答好，哪些回答不好，AI根据这些意见不断改进，就像老师批改作业给你意见。</td>
+                </tr>
+                <tr>
+                    <td class="term">27. Batch Size（批量大小）</td>
+                    <td class="definition">训练过程中同时处理的样本数量，影响训练速度和模型性能。</td>
+                    <td class="simple">AI一次学习多少个例子，就像你一次做5道题还是一次做50道题的区别。</td>
+                </tr>
+                <tr>
+                    <td class="term">28. Epochs（训练周期）</td>
+                    <td class="definition">模型训练过程中完整遍历整个训练数据集的次数。</td>
+                    <td class="simple">AI学习整本书的次数，学习一遍是1个周期，学习五遍是5个周期。</td>
+                </tr>
+                <tr>
+                    <td class="term">29. Learning Rate（学习率）</td>
+                    <td class="definition">控制模型在每次训练迭代中调整权重的步长，影响训练速度和收敛性。</td>
+                    <td class="simple">AI学习的速度，就像你调整学习步伐的快慢。学习率太大可能会错过最好答案，太小则学习太慢。</td>
+                </tr>
+                <tr>
+                    <td class="term">30. Overfitting（过拟合）</td>
+                    <td class="definition">模型在训练数据上表现很好但无法很好地泛化到新数据的现象，过度拟合训练样本。</td>
+                    <td class="simple">AI死记硬背了例子但不理解原理，就像你背下了所有课本题的答案，但遇到新题型就不会做了。</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Agent相关术语</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>术语/名词</th>
+                    <th>专业解释</th>
+                    <th>小学生大白话</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="term">31. Autonomous Agent（自主代理）</td>
+                    <td class="definition">能够独立感知环境、制定决策并执行行动以实现目标的AI系统。</td>
+                    <td class="simple">能自己做决定的AI助手，就像一个会自己思考怎么完成任务的机器人，不需要你每一步都告诉它怎么做。</td>
+                </tr>
+                <tr>
+                    <td class="term">32. Multi-agent System（多代理系统）</td>
+                    <td class="definition">由多个交互代理组成的系统，每个代理具有不同的专长和职责。</td>
+                    <td class="simple">很多AI小助手一起工作，就像一个团队，每个成员负责不同的工作，一起解决复杂问题。</td>
+                </tr>
+                <tr>
+                    <td class="term">33. Tool-using Agent（工具使用代理）</td>
+                    <td class="definition">能够使用外部工具（如搜索引擎、计算器或API）来完成任务的Agent。</td>
+                    <td class="simple">会用各种工具的AI助手，比如会上网搜索、用计算器算数，就像你做作业时会用尺子、计算器一样。</td>
+                </tr>
+                <tr>
+                    <td class="term">34. ReAct（推理-行动）</td>
+                    <td class="definition">一种将推理和行动交替结合的Agent框架，让Agent能够思考并执行行动。</td>
+                    <td class="simple">AI先想一想再做事，就像你解题时先思考怎么做，再动手算，然后再检查结果是否合理。</td>
+                </tr>
+                <tr>
+                    <td class="term">35. Planning（规划）</td>
+                    <td class="definition">Agent确定实现目标所需的行动序列的过程。</td>
+                    <td class="simple">AI提前想好完成任务的步骤，就像你在做一个手工项目前，先列出需要的材料和步骤。</td>
+                </tr>
+                <tr>
+                    <td class="term">36. Function Calling（函数调用）</td>
+                    <td class="definition">LLM识别何时以及如何调用预定义函数来执行特定任务的能力。</td>
+                    <td class="simple">AI知道什么时候该用特定工具，就像你知道什么时候该用计算器而不是尺子。</td>
+                </tr>
+                <tr>
+                    <td class="term">37. Tool Integration（工具集成）</td>
+                    <td class="definition">将外部工具和服务连接到Agent系统的过程，扩展其能力。</td>
+                    <td class="simple">给AI助手装上各种"超能力工具"，比如让它能上网查资料、发邮件或控制其他电子设备。</td>
+                </tr>
+                <tr>
+                    <td class="term">38. Agentic Workflow（代理工作流）</td>
+                    <td class="definition">Agent执行任务的结构化过程，包括计划、执行和评估步骤。</td>
+                    <td class="simple">AI助手完成任务的方法和步骤，就像做作业的流程：先理解问题，想办法，再动手做，最后检查。</td>
+                </tr>
+                <tr>
+                    <td class="term">39. Task Decomposition（任务分解）</td>
+                    <td class="definition">将复杂任务分解为更小、更易管理的子任务的过程。</td>
+                    <td class="simple">把大任务拆成小任务，就像你把"做一个科学报告"拆成"查资料"、"写初稿"、"画图表"等小步骤。</td>
+                </tr>
+                <tr>
+                    <td class="term">40. Memory Systems（记忆系统）</td>
+                    <td class="definition">使Agent能够存储和访问过去交互和信息的机制，提高长期任务的连续性。</td>
+                    <td class="simple">AI的"记忆本"，让它能记住之前和你聊过的内容，或者之前做过的事情，就像你的笔记本。</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">评估与优化术语</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>术语/名词</th>
+                    <th>专业解释</th>
+                    <th>小学生大白话</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="term">41. Evaluation Metrics（评估指标）</td>
+                    <td class="definition">用于衡量AI模型性能的量化标准，如准确率、召回率或F1分数。</td>
+                    <td class="simple">测量AI表现好坏的分数，就像考试成绩一样，有不同的打分方式看AI的不同能力。</td>
+                </tr>
+                <tr>
+                    <td class="term">42. Benchmarks（基准测试）</td>
+                    <td class="definition">标准化的测试集和任务，用于比较不同AI模型的性能。</td>
+                    <td class="simple">用同一套题目测试不同的AI，看谁做得更好，就像奥数比赛，大家做一样的题目比成绩。</td>
+                </tr>
+                <tr>
+                    <td class="term">43. Accuracy（准确率）</td>
+                    <td class="definition">模型正确预测的比例，常用于分类任务。</td>
+                    <td class="simple">AI答对题目的百分比，就像你考试答对了多少题。</td>
+                </tr>
+                <tr>
+                    <td class="term">44. Precision（精确率）</td>
+                    <td class="definition">在模型预测为正的情况中，实际为正的比例。</td>
+                    <td class="simple">AI说"对"的时候，有多少次真的是对的，就像你喊"狼来了"的时候，真的有狼出现的概率。</td>
+                </tr>
+                <tr>
+                    <td class="term">45. Recall（召回率）</td>
+                    <td class="definition">在实际为正的情况中，模型成功预测为正的比例。</td>
+                    <td class="simple">在所有应该找到的东西中，AI成功找到了多少，就像在十个藏起来的宝藏中，你能找到几个。</td>
+                </tr>
+                <tr>
+                    <td class="term">46. F1 Score（F1分数）</td>
+                    <td class="definition">精确率和召回率的调和平均数，提供平衡的性能度量。</td>
+                    <td class="simple">综合考虑AI的准确性和全面性的分数，就像体育比赛既看速度又看力量的总分。</td>
+                </tr>
+                <tr>
+                    <td class="term">47. Human Evaluation（人类评估）</td>
+                    <td class="definition">由人类评估员对AI输出进行主观评价的过程。</td>
+                    <td class="simple">让真人来评价AI的回答好不好，就像老师批改作文，给你写评语和分数。</td>
+                </tr>
+                <tr>
+                    <td class="term">48. Alignment（对齐）</td>
+                    <td class="definition">确保AI系统的行为与人类意图、价值观和偏好一致的过程。</td>
+                    <td class="simple">教AI做对人有帮助、符合人类道德的事，就像教小朋友什么是对的，什么是错的。</td>
+                </tr>
+                <tr>
+                    <td class="term">49. Bias（偏见）</td>
+                    <td class="definition">AI系统中存在的系统性错误，可能导致对某些群体或情况的不公平处理。</td>
+                    <td class="simple">AI学到的一些不公平的想法，就像有些人可能对某些事物有偏见一样，AI也可能会这样。</td>
+                </tr>
+                <tr>
+                    <td class="term">50. Inference Optimization（推理优化）</td>
+                    <td class="definition">提高AI模型在生产环境中运行效率的技术，如量化或剪枝。</td>
+                    <td class="simple">让AI动脑筋更快更省电的方法，就像找捷径一样，不影响结果但能更快完成。</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">应用与部署术语</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>术语/名词</th>
+                    <th>专业解释</th>
+                    <th>小学生大白话</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="term">51. Deployment（部署）</td>
+                    <td class="definition">将训练好的AI模型投入实际使用环境的过程，使其能够处理真实世界的请求。</td>
+                    <td class="simple">把训练好的AI放到实际工作中去，就像把你做好的手工艺品放到展览会上给大家使用。</td>
+                </tr>
+                <tr>
+                    <td class="term">52. Latency（延迟）</td>
+                    <td class="definition">从输入提交到获得模型响应所需的时间，是衡量模型响应速度的关键
